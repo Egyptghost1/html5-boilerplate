@@ -85,7 +85,7 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Author&#39;s custom styles
    ========================================================================== */
 
 
@@ -176,7 +176,7 @@ textarea {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
+    content: &quot; &quot;; /* 1 */
     display: table; /* 2 */
 }
 
@@ -186,7 +186,7 @@ textarea {
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
+   These examples override the primary (&#39;mobile first&#39;) styles.
    Modify as content requires.
    ========================================================================== */
 
@@ -231,21 +231,21 @@ textarea {
     }
 
     a[href]:after {
-        content: " (" attr(href) ")";
+        content: &quot; (&quot; attr(href) &quot;)&quot;;
     }
 
     abbr[title]:after {
-        content: " (" attr(title) ")";
+        content: &quot; (&quot; attr(title) &quot;)&quot;;
     }
 
     /*
-     * Don't show links that are fragment identifiers,
+     * Don&#39;t show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
+    a[href^=&quot;#&quot;]:after,
+    a[href^=&quot;javascript:&quot;]:after {
+        content: &quot;&quot;;
     }
 
     pre {
